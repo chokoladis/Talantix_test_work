@@ -68,7 +68,15 @@ li{
     font-size: 13px;
     color: rgb(119, 119, 119);
 }
-span{
+li a{
     user-select: none;
     cursor: pointer;
+    text-decoration: none;
+    color: red;
+    margin-left: 5px;
+    transform: scale(0.98);
+    transition: all .3s;
+}
+li a:hover{
+    transform: scale(1.03);
 }
